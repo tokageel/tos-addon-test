@@ -1,0 +1,15 @@
+[
+  {
+    "name" : "TKGNOTIFIER",
+    "file" : "tkgnotifier",
+    "extension" : "ipf",
+    "fileVersion" : "v1.0.0",
+    "releaseTag" : "TKGNOTIFIER_v1.0.0",
+    "unicode" : "🦎",
+    "description" : "ログイン時やCC時、無駄になりそうなもの（期限付きメール、期限付きアイテム、無料TP）が手元にあるとお知らせします.",
+    "tags" : [
+      "notify",
+      "expiration"
+    ]
+  }
+]

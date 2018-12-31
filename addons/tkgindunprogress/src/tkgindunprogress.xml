@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiframe name="tkgindunprogress" x="0" y="0" width="70" height="70">
+    <frame title="tkgindunprogress" layout_gravity="center center" fasthide="true"/>
+    <draw blend="80" drawtitlebar="false" drawframe="true"/>
+    <layer layerlevel="30"/>
+    <input moveable="false" hittestframe="false"/>
+    <option closebutton="false" hideable="false"/>
+    <skin frameskin="textballoon"/>
+    <controls>
+        <picture name="icon" rect="0 0 50 50" margin="10 10 10 10" layout_gravity="left top" stretch="true"/>
+    </controls>
+</uiframe>

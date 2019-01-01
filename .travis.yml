@@ -22,8 +22,8 @@ install:
 - export PATH=$PATH:`pwd`
 - echo $PATH
 - cd ..
-- curl https://raw.githubusercontent.com/tokageel/ipf-auto-release/feature/tokageel2/jsonDiffToCsv.js > jsonDiffToCsv.js
-- curl https://raw.githubusercontent.com/tokageel/ipf-auto-release/feature/tokageel2/release.sh > travis_auto_release.sh
+- curl https://raw.githubusercontent.com/tokageel/ipf-auto-release/feature/tokageel/jsonDiffToCsv.js > jsonDiffToCsv.js
+- curl https://raw.githubusercontent.com/tokageel/ipf-auto-release/feature/tokageel/release.sh > travis_auto_release.sh
 - chmod 755 travis_auto_release.sh
 - PRE_COMMIT=${TRAVIS_COMMIT_RANGE%...*}
 - git show ${PRE_COMMIT}:addons.json > old_addons.json
@@ -35,5 +35,4 @@ script:
 
 branches:
   only:
-  - master
   - develop

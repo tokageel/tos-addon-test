@@ -28,7 +28,7 @@ install:
 
 script:
 - echo $LD_LIBRARY_PATH
-- bash travis_auto_release.sh
+- bash -x travis_auto_release.sh
 
 branches:
   only:

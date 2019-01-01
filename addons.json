@@ -16,8 +16,8 @@
     "name" : "TKGINDUNPROGRESS",
     "file" : "tkgindunprogress",
     "extension" : "ipf",
-    "fileVersion" : "v1.0.0",
-    "releaseTag" : "TKGINDUNPROGRESS_v1.0.0",
+    "fileVersion" : "v1.0.1",
+    "releaseTag" : "TKGINDUNPROGRESS_v1.0.1",
     "unicode" : "🦎",
     "description" : "IDの進捗率を自キャラ周辺に表示します.",
     "tags" : [

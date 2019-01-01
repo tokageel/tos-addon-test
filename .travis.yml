@@ -25,6 +25,7 @@ install:
 - chmod 755 travis_auto_release.sh
 - PRE_COMMIT=${TRAVIS_COMMIT_RANGE%...*}
 - git show ${PRE_COMMIT}:addons.json > old_addons.json
+- cat old_addons.json
 
 script:
 - echo $LD_LIBRARY_PATH

@@ -11,7 +11,7 @@
 local Addon = {
   name = "TKGINDUNPROGRESS",
   author = "TOKAGEEL",
-  version = "1.0.3"
+  version = "1.0.4"
 }
 
 _G["ADDONS"] = _G["ADDONS"] or {}
